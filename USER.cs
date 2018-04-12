@@ -6,11 +6,11 @@ public class USER: MonoBehaviour
 {
 
     // PHP Links
-    protected readonly string register_url = "prodian.site/WFK/wfk_register.php";
-    protected readonly string login_url = "prodian.site/WFK/wfk_login.php";
-    protected readonly string register_check_url = "prodian.site/WFK/wfk_registernamecheck.php";
-    protected readonly string save_score_url = "prodian.site/WFK/wfk_uploadscore.php";
-    protected readonly string highscores_url = "prodian.site/WFK/wfk_highscores.php";
+    protected readonly string register_url = "not permitted by server owner"
+    protected readonly string login_url = "not permitted by server owner"
+    protected readonly string register_check_url = "not permitted by server owner"
+    protected readonly string save_score_url = "not permitted by server owner"
+    protected readonly string highscores_url = "not permitted by server owner"
 
     // Parameters
     protected readonly int reconnect_time = 10; // if cannot save score to db, try again after 10 seconds;
